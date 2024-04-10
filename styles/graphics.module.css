@@ -1,7 +1,7 @@
 .pContainer {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 25px;
   margin: 0 auto 15px;
 }
 
@@ -11,7 +11,7 @@
 
 .navIconContainer {
   margin: 0 auto;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #FF5C00;
 }
 
 .graphics {
@@ -22,30 +22,33 @@
   padding: 6rem;
   min-height: 90vh;
   background-color: #121212;
-  margin: -10px;
   padding: 0px;
+}
+
+.graphicsIntroContainer {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .graphicsH {
   color: #FF5C00;
   font-family: SF Pro;
   font-size: 40px;
-  margin-left: 180px;
-  margin-top: 80px;
 }
 
 .badgesP {
   color: #fff;
   font-family: SF Pro;
   font-size: 24px;
-  margin-left: 180px;
 }
 
 .badgesImg {
   width: 800px;
   background-color: transparent;
-  margin-left: 400px;
-  margin-top: -100px;
+  align-items: center;
+  justify-content:center ;
   transform: scale(1);
   transition: transform 0.5s ease-in-out;
 }
@@ -86,37 +89,27 @@
 
 .workoutIcon {
   width: 100px;
-  margin-top: 50px;
-  margin-left: 180px;
 }
 
 .workoutP {
   color: #fff;
   font-family: SF Pro;
-  margin-left: 350px;
-  margin-top: -75px;
   font-size: 18px;
 }
 
 .rewardIcon {
   width: 100px;
-  margin-top: 50px;
-  margin-left: 180px;
 }
 
 .rewardsP {
   color: #fff;
   font-family: SF Pro;
-  margin-left: 350px;
-  margin-top: -75px;
   font-size: 18px;
 }
 
 
 .nutritionIcon {
   width: 100px;
-  margin-top: 50px;
-  margin-left: 180px;
 }
 
 .nutritionP {
@@ -150,25 +143,27 @@
   margin-bottom: 20px;
 }
 
+.avatarContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+
 .avatars {
   color: #FF5C00;
   font-family: SF Pro;
   font-size: 40px;
-  margin-left: 180px;
-  margin-top: 40px;
 }
 
 .avatarsP {
   color: #fff;
   font-family: SF Pro;
   font-size: 24px;
-  margin-left: 180px;
-  margin-top: -20px;
 }
 
 .allCharacters {
   width: 1200px;
-  margin-left: 180px;
   margin-bottom: 40px;
   transform: scale(1);
   transition: transform 0.5s ease-in-out;
@@ -179,6 +174,20 @@
   transition: transform 0.5s ease-in-out;
 }
 
+.buttonsContainer {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+}
+
 .buttons {
   color: #FF5C00;
   font-family: SF Pro;
@@ -187,31 +196,30 @@
   margin-top: 40px;
 }
 
+.buttonsFirstP {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
 .buttonPOne {
   color: #fff;
   font-family: SF Pro;
   font-size: 24px;
-  margin-left: 180px;
-  margin-top: -20px;
 }
 
 .buttonImg {
   width: 800px;
-  margin-left: 400px;
-  margin-bottom: 50px;
 }
 
 .buttonPTwo {
   color: #fff;
   font-family: SF Pro;
   font-size: 24px;
-  margin-left: 180px;
-  margin-top: -20px;
 }
 
 .card {
   width: 300px;
-  margin-left: 400px;
   transform: scale(1);
   transition: transform 0.5s ease-in-out;
 }
@@ -221,33 +229,14 @@
   transition: transform 0.5s ease-in-out;
 }
 
-.rounded {
-  width: 240px;
-  margin-left: 1000px;
-  margin-top: -500px;
-  margin-bottom: 80px;
-  transform: scale(1);
-  transition: transform 0.5s ease-in-out;
-}
-
-.rounded:hover {
-  transform: scale(1.2);
-  transition: transform 0.5s ease-in-out;
-}
-
 .iconsExOne {
   color: #fff;
   font-family: SF Pro;
   font-size: 24px;
-  margin-left: 180px;
-  margin-top: -20px;
 }
 
 .quizEx {
   width: 600px;
-  margin-left: 500px;
-  margin-bottom: 80px;
-  margin-top: 10px;
   transform: scale(1);
   transition: transform 0.5s ease-in-out;
 }
@@ -261,48 +250,39 @@
   color: #fff;
   font-family: SF Pro;
   font-size: 24px;
-  margin-left: 180px;
-  margin-top: -20px;
-  margin-bottom: 0px;
+}
+
+.imagesContainer {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .images {
   color: #FF5C00;
   font-family: SF Pro;
   font-size: 40px;
-  margin-left: 180px;
-  margin-top: 40px;
 }
 
 .imgP {
   color: #fff;
   font-family: SF Pro;
   font-size: 24px;
-  margin-left: 180px;
-  margin-top: -20px;
-  margin-bottom: 50px;
 }
 
 .gallery {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-left: 280px;
-  margin-right: 280px;
-  margin-bottom: 50px;
 }
 
 .img {
   width: calc(50% - 5px);
-  /* 50% width with a little space between images */
-  margin-bottom: 10px;
 }
 
 .lastP {
   color: #fff;
   font-family: SF Pro;
   font-size: 24px;
-  margin-left: 180px;
-  margin-top: -20px;
-  margin-bottom: 50px;
 }
