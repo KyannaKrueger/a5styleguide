@@ -1,0 +1,26 @@
+.header {
+        background-color: #000005;
+        color:aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        height: 70px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin:-10px;
+}
+
+.navBar {
+        list-style-type: none;
+        display: flex; 
+         justify-content: center;  
+}
+
+.headLink {
+        color:#fff;
+        text-decoration: none;
+}
+
+.headLink:hover {
+        color:#FF5C00;
+        text-decoration: none;
+}

@@ -1,0 +1,130 @@
+.colors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 6rem;
+    min-height: 90vh;
+    background-color: #131313;
+    margin:-10px;
+    padding: 0px;
+    font-family: SF pro;
+    position: relative;
+  }
+
+  .clrTitle{
+    color: #ff5c00;
+    margin-left: -1050px;
+    margin-bottom: -16px;
+    margin-top: 100px;
+    font-size: 40px;
+  }
+
+  .clrTxt {
+    color:#fff;
+    font-family: SF pro;
+    font-size: 32px;
+    padding: 80px;
+    margin-top: -30px;
+    margin-left: 60px;
+  }
+
+  .swatch {
+    width:300px;
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out; 
+  }
+
+  .swatch:hover {
+    width:300px;
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out; 
+  }
+
+ .swatchContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 360px;
+ }
+ 
+ .clrSwatch {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 120px;
+ }
+
+ .clrSwatchBlack {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 120px;
+  margin-left: -40px;
+  margin-top: 40px;
+ }
+
+ .clrSwatchWhite {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 40px;
+ }
+
+ .clrSubOne {
+  color: #ff5c00;
+  text-align: left;
+  margin-left: -1040px;
+  margin-top: 100px;
+ }
+
+ .clrSubTwo {
+  color: #ff5c00;
+  text-align: left;
+  margin-left: -560px;
+ }
+
+ .clrExamples {
+  display: flex;
+  margin-left: 40px;
+}
+
+.exDescription {
+  color:#fff;
+  margin-left: -70px;
+}
+
+.colorEx {
+  width: auto;
+  height: 200px; 
+  margin: 20px;
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out; 
+}
+
+.colorEx:hover {
+  transform: scale(1.2); 
+}
+
+.acDescription {
+  color:#fff;
+  margin-left: -30px;
+}
+
+.accessibleContainer {
+  width: 800px;
+  margin-left: 100px;
+}
+
+.accessiblePic {
+  width: 250px;
+  padding: 50px;
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out; 
+}
+
+.accessiblePic:hover {
+  width: 250px;
+  padding: 50px;
+  transform: scale(1.2);
+  transition: transform 0.5s ease-in-out; 
+}

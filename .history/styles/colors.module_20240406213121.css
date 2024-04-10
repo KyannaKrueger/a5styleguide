@@ -1,0 +1,105 @@
+.colors {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 6rem;
+    min-height: 90vh;
+    background-color: #131313;
+    margin:-10px;
+    padding: 0px;
+    font-family: SF pro;
+    position: relative;
+  }
+
+  .clrTitle{
+    color: #ff5c00;
+    margin-left: -450px;
+    margin-bottom: -8px;
+    margin-top: 50px;
+
+  }
+
+  .clrTxt {
+    color:#fff;
+    font-family: SF pro;
+    font-size: 16px;
+    padding: 40px;
+    margin-top: -15px;
+    margin-left: 30px;
+  }
+
+  .swatch {
+    width:150px;
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out; 
+  }
+
+  .swatch:hover {
+    width:150px;
+    transform: scale(1.1);
+    transition: transform 0.5s ease-in-out; 
+  }
+
+ .swatchContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: 180px;
+ }
+ 
+ .clrSwatch {
+  color: #fff;
+  font-size: 10px;
+  margin-right: 60px;
+ }
+
+ .clrSwatchBlack {
+  color: #fff;
+  font-size: 10px;
+  margin-right: 60px;
+  margin-left: -20px;
+  margin-top: 20px;
+ }
+
+ .clrSwatchWhite {
+  color: #fff;
+  font-size: 10px;
+  margin-left: 20px;
+ }
+
+ .clrSubOne {
+  color: #ff5c00;
+  text-align: left;
+  margin-left: -580px;
+  margin-top: 50px;
+ }
+
+ .clrSubTwo {
+  color: #ff5c00;
+  text-align: left;
+  margin-left: -560px;
+ }
+
+ .clrExamples {
+  display: flex;
+  margin-left: 40px;
+}
+
+.exDescription {
+  color:#fff;
+  margin-left: -70px;
+}
+
+.colorEx {
+  width: auto;
+  height: 200px; 
+  margin: 20px;
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out; 
+}
+
+.colorEx:hover {
+  transform: scale(1.2); 
+}

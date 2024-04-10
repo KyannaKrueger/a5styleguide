@@ -1,0 +1,292 @@
+.graphics {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    padding: 6rem;
+    min-height: 90vh;
+    background-color: #121212;
+    margin: -10px;
+    padding: 0px;
+  }
+
+  .graphicsH {
+    color: #FF5C00;
+    font-family: SF Pro;
+    font-size: 40px;
+    margin-left:180px;
+    margin-top: 80px;
+  }
+
+  .badgesP {
+    color: #fff;
+    font-family: SF Pro;
+    font-size: 24px;
+    margin-left: 180px;
+  }
+
+  .badgesImg {
+    width: 800px;
+    background-color: transparent;
+    margin-left: 400px;
+    margin-top: -100px;
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out; 
+  }
+
+  .badgesImg:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out; 
+  }
+
+  .navP {
+    color: #fff;
+    font-family: SF Pro;
+    font-size: 24px;
+    margin-left: 180px;
+  }
+
+  .line{ 
+    width: 1200px;
+    height: 500px;
+    border-bottom: 2px solid #FF5C00;
+    margin-left: 180px;
+    margin-top: -500px;
+    margin-bottom: -0px;
+  }
+
+  .homeIcon {
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 180px;
+  }
+
+  .homeP {
+    color: #fff;
+    font-family: SF Pro;
+    margin-left: 350px;
+    margin-top: -75px;
+    font-size: 18px;
+  }
+
+  .workoutIcon {
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 180px;
+  }
+
+  .workoutP {
+    color: #fff;
+    font-family: SF Pro;
+    margin-left: 350px;
+    margin-top: -75px;
+    font-size: 18px;
+  }
+
+  .rewardIcon {
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 180px;
+  }
+
+  .rewardsP {
+    color: #fff;
+    font-family: SF Pro;
+    margin-left: 350px;
+    margin-top: -75px;
+    font-size: 18px;
+  }
+
+
+  .nutritionIcon {
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 180px;
+  }
+
+  .nutritionP {
+    color: #fff;
+    font-family: SF Pro;
+    margin-left: 350px;
+    margin-top: -75px;
+    font-size: 18px;
+  }
+
+  .settingsIcon {
+    width: 100px;
+    margin-top: 50px;
+    margin-left: 180px;
+  }
+
+  .settingsP {
+    color: #fff;
+    font-family: SF Pro;
+    margin-left: 350px;
+    margin-top: -75px;
+    font-size: 18px;
+  }
+
+  .lineTwo{ 
+    width: 1200px;
+    height: 500px;
+    border-bottom: 2px solid #FF5C00;
+    margin-left: 180px;
+    margin-top: -450px;
+    margin-bottom: 20px;
+  }
+
+  .avatars {
+    color: #FF5C00;
+    font-family: SF Pro;
+    font-size: 40px;
+    margin-left:180px;
+    margin-top: 40px;
+  }
+
+  .avatarsP {
+    color: #fff;
+    font-family: SF Pro;
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: -20px;
+  }
+
+  .allCharacters {
+    width: 1200px;
+    margin-left: 180px;
+    margin-bottom: 40px;
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out; 
+  }
+
+  .allCharacters:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out; 
+  }
+  
+  .buttons {
+    color: #FF5C00;
+    font-family: SF Pro;
+    font-size: 40px;
+    margin-left:180px;
+    margin-top: 40px;
+  }
+
+  .buttonPOne {
+    color: #fff;
+    font-family: SF Pro;
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: -20px;
+  }
+
+  .buttonImg {
+    width: 800px;
+    margin-left: 400px;
+    margin-bottom: 50px;
+  }
+
+  .buttonPTwo {
+    color: #fff;
+    font-family: SF Pro;
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: -20px;
+  }
+
+  .card {
+    width: 300px;
+    margin-left: 400px;
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out; 
+  }
+
+  .card:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out; 
+  }
+
+  .rounded {
+    width: 240px;
+    margin-left: 1000px;
+    margin-top: -500px;
+    margin-bottom: 80px;
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out; 
+  }
+
+  .rounded:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out; 
+  }
+
+.iconsExOne {
+    color: #fff;
+    font-family: SF Pro;
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: -20px;
+}
+
+.quizEx {
+    width: 600px;
+    margin-left: 500px;
+    margin-bottom: 80px;
+    margin-top: 10px;
+    transform: scale(1);
+    transition: transform 0.5s ease-in-out; 
+}
+
+.quizEx:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out; 
+}
+
+.appOffersP{
+    color: #fff;
+    font-family: SF Pro;
+    font-size: 24px;
+    margin-left: 180px;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+
+.images {
+  color: #FF5C00;
+  font-family: SF Pro;
+  font-size: 40px;
+  margin-left:180px;
+  margin-top: 40px;
+}
+
+.imgP{ 
+  color: #fff;
+  font-family: SF Pro;
+  font-size: 32px;
+  margin-left: 180px;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 280px;
+  margin-right: 280px;
+  margin-bottom: 50px;
+}
+
+.img {
+  width: calc(50% - 5px); /* 50% width with a little space between images */
+    margin-bottom: 10px;
+}
+
+.lastP { 
+  color: #fff;
+  font-family: SF Pro;
+  font-size: 32px;
+  margin-left: 180px;
+  margin-top: -20px;
+  margin-bottom: 50px;
+}

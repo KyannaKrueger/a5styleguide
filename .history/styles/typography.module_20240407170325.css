@@ -1,0 +1,117 @@
+.typography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 6rem;
+    min-height: 90vh;
+    background-color: #131313;
+    margin:-10px;
+    padding: 0px;
+    font-family: SF pro;
+    position: relative;
+  }
+
+  .typoTitle{
+    color: #ff5c00;
+    margin-left: -450px;
+    margin-bottom: -8px;
+    margin-top: 50px;
+
+  }
+
+  .typoText {
+    color:#ffffff;
+    font-family: SF pro;
+    font-size: 16px;
+    padding: 40px;
+    margin-top: -15px;
+    margin-left: 50px;
+  }
+
+  .bigSF {
+    color: #ff5c00;
+    font-size: 52px;
+    margin-top: -40px;
+    margin-bottom: 0px;
+  }
+
+  .logoH{
+    color: #ff5c00;
+    text-align: left;
+    margin-left: -550px;
+    margin-top: 20px;
+  }
+
+  .logoTypoText{
+    color:#ffffff;
+    font-family: SF pro;
+    font-size: 16px;
+    padding: 40px;
+    margin-top: -15px;
+    margin-left: 50px;
+  }
+
+  .bigNuni{
+    color: #ff5c00;
+    font-size: 52px;
+    margin-top: -40px;
+    margin-bottom: 0px;
+    font-family: Nunito;
+    font-weight: 800;
+  }
+
+  .characterH {
+    color: #ff5c00;
+    text-align: left;
+    margin-left: -360px;
+    margin-top: -20px;
+  }
+
+.characters {
+    color: #ffffff;
+    margin-left: -360px;
+    margin-top: -5px;
+}
+
+.headingH {
+    color: #ff5c00;
+    text-align: left;
+    margin-left: -500px;
+    margin-top: 20px;
+  }
+
+.exampleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 400px;
+}
+
+.mainExContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.logoExContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+}
+
+.logoExH {
+    color: #ff5c00;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: Nunito;
+    font-weight: 800;
+  }
+
+  .charactersLogo{
+    color: #ffffff;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: Nunito;
+    font-weight: 800;
+}

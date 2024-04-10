@@ -1,0 +1,47 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 6rem;
+  min-height: 90vh;
+  background-color: #131313;
+  margin:-10px;
+  padding: 0px;
+  font-family: SF pro;
+  position: relative;
+}
+
+.backgroundVideo {
+  margin-top: -472px;
+}
+
+.square {
+  width: 50vw; 
+  height: 100vh; 
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); 
+  position: relative; 
+}
+
+
+.fQ {            
+font-size: 100px;
+color: #fff;
+position: absolute;
+top: 40px; 
+left: 20px; 
+margin-top: -20px;
+}
+
+.quest {
+  color: #FF5C00;
+}
+
+.sG {
+  font-size: 30px;
+  color: #fff;
+  margin: 0px;
+  position: absolute;
+  top: 230px;
+  left: 20px; 
+  display: block;
+}

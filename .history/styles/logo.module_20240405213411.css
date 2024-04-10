@@ -1,0 +1,30 @@
+.logoPage {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 6rem;
+    min-height: 90vh;
+    background-color: #131313;
+    margin:-10px;
+    padding: 0px;
+}
+
+.logoH {
+    color:#FF5C00;
+    font-family: SF pro;
+    padding: 20px;
+    margin-bottom: -30px;
+}
+
+.logoDescription {
+    color:#fff;
+    font-family: SF pro;
+    font-size: 10px;
+    padding: 20px;
+}
+
+.logoExample {
+    width: 150px;
+    height: auto;
+    margin: 20px;
+}

@@ -1,0 +1,70 @@
+.logoPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 6rem;
+    min-height: 90vh;
+    background-color: #131313;
+    margin:-10px;
+    padding: 0px;
+}
+
+.logoH {
+    color:#FF5C00;
+    font-family: SF pro;
+    padding: 20px;
+    margin-bottom: -30px;
+}
+
+.logoDescription {
+    color:#fff;
+    font-family: SF pro;
+    font-size: 10px;
+    padding: 20px;
+}
+
+.topicH {
+    color:#FF5C00;
+    font-family: SF pro;
+    padding: 20px;
+    margin-bottom: -30px;
+}
+
+.variations {
+    display: flex;
+    mix-blend-mode: screen;
+    margin-left: 40px;
+}
+
+.logoExampleOne {
+    width: 140px;
+    height: auto;
+    margin: 20px;
+}
+
+.logoExampleTwo {
+    width: 154px;
+    height: auto;
+    margin: 20px;
+}
+
+.logoExampleThree {
+    width: 165px;
+    height: auto;
+    margin: 20px;
+}
+
+.variationsTxtContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: -30px;
+    color: #fff;
+    font-family: SF pro;
+    margin-top: -20px;
+}
+
+.variationsTxt {
+    font-size: 12px;
+    padding-right: 70px;
+}

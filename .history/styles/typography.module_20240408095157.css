@@ -1,0 +1,247 @@
+.typography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 6rem;
+    min-height: 90vh;
+    background-color: #131313;
+    margin:-10px;
+    padding: 0px;
+    font-family: SF pro;
+    position: relative;
+  }
+
+  .typoTitle{
+    color: #ff5c00;
+    margin-left: -1100px;
+    margin-bottom: -8px;
+    margin-top: 50px;
+    font-size: 40px;
+  }
+
+  .typoText {
+    color:#ffffff;
+    font-family: SF pro;
+    font-size: 32px;
+    padding: 80px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+
+  .bigSF {
+    color: #ff5c00;
+    font-size: 104px;
+    margin-top: -80px;
+    margin-bottom: 0px;
+  }
+
+  .logoH{
+    color: #ff5c00;
+    text-align: left;
+    margin-left: -1150px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+    font-size: 40px;
+  }
+
+  .logoTypoText{
+    color:#ffffff;
+    font-family: SF pro;
+    font-size: 32px;
+    padding: 80px;
+    margin-top: -30px;
+    margin-left: 50px;
+  }
+
+  .bigNuni{
+    color: #ff5c00;
+    font-size: 104px;
+    margin-top: -80px;
+    margin-bottom: 0px;
+    font-family: Nunito;
+    font-weight: 800;
+    margin-bottom: 100px;
+  }
+
+  .characterH {
+    color: #ff5c00;
+    text-align: left;
+    margin-left: -700px;
+    margin-top: -40px;
+    font-size: 40px;
+  }
+
+.characters {
+    color: #ffffff;
+    margin-left: -700px;
+    margin-top: -10px;
+    font-size: 32px;
+}
+
+.headingH {
+    color: #ff5c00;
+    text-align: left;
+    margin-left: -1050px;
+    margin-top: 20px;
+    font-size: 40px;
+  }
+
+.exampleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 700px;
+}
+
+.mainExContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.logoExContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: -50px;
+}
+
+.logoExH {
+    color: #ff5c00;
+    text-align: left;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: Nunito;
+    font-weight: 800;
+    font-size: 40px;
+  }
+
+  .charactersLogo{
+    color: #ffffff;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: Nunito;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.headingDescript {
+    color: #fff;
+    margin-left: -650px;
+    margin-top: -10px;
+    font-size: 32px;
+}
+
+.hOne {
+    font-family: SF Pro;
+    font-weight:bold;
+    color:#fff;
+    font-size: 38px;
+}
+
+.hTwo {
+    font-family: SF Pro;
+    font-weight:bold;
+    color:#fff;
+    font-size: 32px;
+}
+
+.hThree {
+    font-family: SF Pro;
+    font-weight:bold;
+    color:#fff;
+    font-size: 26px;
+}
+
+.hFour {
+    font-family: SF Pro;
+    font-weight:bold;
+    color:#fff;
+    font-size: 20px;
+}
+
+.hFive {
+    font-family: SF Pro;
+    font-weight:bold;
+    color:#fff;
+    font-size: 14px;
+}
+
+.hSix {
+    font-family: SF Pro;
+    font-weight:bold;
+    color:#fff;
+    font-size: 8px;
+}
+
+.subContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 360px;
+    margin-top: 40px;
+}
+
+.subConOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -600px;
+    margin-right: 1100px;
+}
+
+.subCon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -300px;
+}
+
+.sec {
+    color: #ff5c00;
+    text-align: left;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.secH {
+    color: #fff;
+    margin-top: -10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sub {
+  color: #fff;
+  margin-top: -10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bodyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.bodyCopy {
+  color: #ff5c00;
+  text-align: left;
+  margin-top: 40px;
+  margin-left: -1110px;
+  font-size: 40px;
+}
+
+.bodyOne {
+color: #fff;
+margin-left: 0;
+font-size: 16px;
+margin-top: -20px;
+}
+
+.bodyTwo {
+  color: #fff;
+  margin-left: 0;
+  font-size: 16px;
+  margin-top: 0px;
+}

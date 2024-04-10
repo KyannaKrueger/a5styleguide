@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 6rem;
+  min-height: 120vh;
+  background-color: #131313;
+  margin:-10px;
+  padding: 0px;
+}
+
+.fQ {
+font-size: 300px;
+}
+
+.sG {
+
+}

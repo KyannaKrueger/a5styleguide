@@ -1,0 +1,49 @@
+/* header.module.css */
+
+.header {
+        background-color: #000005;
+        color: aliceblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        height: 70px;
+        display: flex;
+        justify-content: space-between; /* Align logo and navBar to opposite ends */
+        align-items: center;
+        padding: 0 20px; /* Add padding to both sides of the header */
+      }
+      
+      .logoContainer {
+        margin-left: 20px;
+      }
+      
+      .logo {
+        width: 100px;
+        height: auto;
+      }
+      
+      .navBarContainer {
+        margin-right: 20px; /* Adjust margin to create space between the navBar and the edge of the header */
+      }
+      
+      .navBar {
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0; /* Remove default padding */
+        margin: 0; /* Remove default margin */
+      }
+      
+      .navItem {
+        padding: 0 10px; /* Adjust padding for each nav item */
+      }
+      
+      .headLink {
+        color: #fff;
+        text-decoration: none;
+        font-family: 'SF Pro', sans-serif; /* Make sure font family name matches your font */
+      }
+      
+      .headLink:hover {
+        color: #FF5C00;
+      }
+      

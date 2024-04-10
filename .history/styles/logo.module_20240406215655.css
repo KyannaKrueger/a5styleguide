@@ -1,0 +1,104 @@
+.logoPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    padding: 6rem;
+    min-height: 90vh;
+    background-color: #131313;
+    margin: -10px;
+    padding: 0px;
+  }
+  
+  .logoH {
+    color: #FF5C00;
+    font-family: SF pro;
+    padding: 20px;
+    margin-bottom: -80px;
+    margin-left: -570px;
+  }
+  
+  .logoDescription {
+    color: #fff;
+    font-family: SF pro;
+    font-size: 16px;
+    padding: 70px;
+    margin-bottom: -40px;
+  }
+
+  .fQLogo {
+    width: 300px;
+  }
+  
+  .topicH {
+    color: #FF5C00;
+    font-family: SF pro;
+    padding: 20px;
+    margin-bottom: -70px;
+    margin-left: -520px;
+  }
+  
+  .variations {
+    display: flex;
+    mix-blend-mode: screen;
+    margin-left: 40px;
+  }
+  
+  .logoExampleOne,
+  .logoExampleTwo,
+  .logoExampleThree {
+    width: auto;
+    height: 200px; 
+    margin: 20px;
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out; 
+  }
+  
+  .variations:hover .logoExampleOne,
+  .variations:hover .logoExampleTwo,
+  .variations:hover .logoExampleThree {
+    transform: scale(1); 
+  }
+  
+ .logoSize {
+  color: #FF5C00;
+  font-family: SF pro;
+  padding: 20px;
+  margin-bottom: -70px;
+  margin-left: -550px;
+ }
+
+ .logoMust {
+  color: #FF5C00;
+  font-family: SF pro;
+  padding: 20px;
+  margin-bottom: -70px;
+  margin-left: -575px;
+ }
+
+ .logoNever {
+  color: #FF5C00;
+  font-family: SF pro;
+  padding: 20px;
+  margin-left: -550px;
+ }
+
+ .spacingInfo {
+  color: #fff;
+  font-family: SF pro;
+  font-size: 16px;
+  margin-bottom: -300px;
+  margin-left: -310px;
+ }
+
+ .spacing {
+  width: 100px;
+ }
+
+ .iconSpacing {
+  width: 100px;
+ }
+
+ .size {
+  width: 100px;
+ }
