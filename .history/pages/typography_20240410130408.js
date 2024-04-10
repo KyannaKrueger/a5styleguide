@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.css';
 import styles from "@/styles/typography.module.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -14,7 +13,7 @@ export default function Typography() {
         <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet" />
       </Head>
       <Header/>
-        <main className={`${styles.typography} container`}>
+        <main className={styles.typography container}>
         <h1 className={styles.typoTitle}>Typography</h1>
         <p className={styles.typoText}>San Francisco Pro is an Apple-designed typeface that provides a consistent, legible, and friendly typographic voice.
 
