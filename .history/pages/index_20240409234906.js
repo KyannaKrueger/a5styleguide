@@ -36,7 +36,7 @@ export default function Home() {
           </div>
           <div className={styles.VideoContainer}>
             <video className={styles.bgVideoContainer} autoPlay muted loop >
-              <source src="/fitQuestSlideshow.mp4" type="video/mp4" />
+              <source className={styles.cover} src="/fitQuestSlideshow.mp4" type="video/mp4" />
             </video>
           </div>
         </div>

@@ -24,19 +24,17 @@ export default function Home() {
       </Head>
       <Header />
       <main className={`${styles.main} ${inter.className}`}>
-        <div className={styles.contentContainer}>
+        <div className={styles.container}>
           <div className={styles.titleContainer}>
-            <div className={styles.leftContainer}>
-              <h1 className={styles.fQ}>Fit<span className={styles.quest}>Quest</span></h1>
-              <h2 className={styles.sG}>Styleguide</h2>
-              <Link href="/colors" passHref>
-                <button className={styles.promptBtn}>Lets go!</button>
-              </Link>
-            </div>
+            <h1 className={styles.fQ}>Fit<span className={styles.quest}>Quest</span></h1>
+            <h2 className={styles.sG}>Styleguide</h2>
+            <Link href="/colors" passHref>
+              <button className={styles.promptBtn}>Lets go!</button>
+            </Link>
           </div>
           <div className={styles.VideoContainer}>
             <video className={styles.bgVideoContainer} autoPlay muted loop >
-              <source src="/fitQuestSlideshow.mp4" type="video/mp4" />
+              <source className={styles.cover} src="/fitQuestSlideshow.mp4" type="video/mp4" />
             </video>
           </div>
         </div>

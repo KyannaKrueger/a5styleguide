@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Header() {
   return (
     <>
-      <header className={styles.header}>
+      <div className={styles.header}>
         <div className={styles.logoContainer}>
           <Link href="/">
             <img src="/fQDarkLogo.svg" className={styles.logo} alt="FitQuest Logo" />
@@ -44,7 +44,7 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-      </header>
+      </main>
     </>
   );
 }

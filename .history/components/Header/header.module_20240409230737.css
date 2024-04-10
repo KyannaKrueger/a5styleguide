@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  height: 140px; 
+  font-size: 24px;
+  background-color: #000005;
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+      
+      .logoContainer {
+        margin-left: 40px;
+      }
+      
+      .logo {
+        width: 200px;
+        height: auto;
+      }
+      
+      .navBarContainer {
+        margin-right: 40px; 
+      }
+      
+      .navBar {
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0; 
+        margin: 0; 
+      }
+      
+      .navItem {
+        padding: 0 10px; 
+      }
+      
+      .headLink {
+        color: #fff;
+        text-decoration: none;
+        font-family: 'SF Pro', sans-serif; 
+      }
+      
+      .headLink:hover {
+        color: #FF5C00;
+      }
+      

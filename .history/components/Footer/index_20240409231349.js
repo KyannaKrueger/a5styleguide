@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
       <footer className={styles.footer}>
-        <p className={styles.rights}>2024 © FitQuest</p>
+        <p className={styles.rights}>© FitQuest</p>
       </footer>
     </>
   );
