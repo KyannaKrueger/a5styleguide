@@ -3,8 +3,10 @@
     flex-direction: column;
     align-items: center;
     text-align: left;
+    padding: 6rem;
     min-height: 90vh;
     background-color: #121212;
+    margin:-10px;
     padding: 0px;
     font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
     position: relative;
@@ -12,6 +14,8 @@
 
   .typoTitle{
     color: #ff5c00;
+    margin-left: -1100px;
+    margin-bottom: -8px;
     margin-top: 50px;
     font-size: 40px;
   }
@@ -22,14 +26,17 @@
 
   .typoText {
     color:#ffffff;
-    font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
+    font-family: SF pro;
     font-size: 24px;
-    padding: 50px 80px 80px;
+    padding: 80px;
+    margin-top: -30px;
+    margin-left: 50px;
   }
 
   .bigSF {
     color: #ff5c00;
     font-size: 104px;
+    margin-top: -80px;
     margin-bottom: 0px;
   }
 
@@ -101,7 +108,7 @@
 }
 
 .hOne {
-    font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
+    font-family: SF Pro;
     font-weight:bold;
     color:#fff;
     font-size: 38px;
@@ -110,7 +117,7 @@
 }
 
 .hTwo {
-    font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
+    font-family: SF Pro;
     font-weight:bold;
     color:#fff;
     font-size: 32px;
