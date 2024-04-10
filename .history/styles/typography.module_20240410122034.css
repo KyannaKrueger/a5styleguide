@@ -26,7 +26,7 @@
 
   .typoText {
     color:#ffffff;
-    font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
+    font-family: SF pro;
     font-size: 24px;
     padding: 80px;
     margin-top: -30px;
@@ -108,7 +108,7 @@
 }
 
 .hOne {
-    font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
+    font-family: SF Pro;
     font-weight:bold;
     color:#fff;
     font-size: 38px;
@@ -117,7 +117,7 @@
 }
 
 .hTwo {
-    font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
+    font-family: SF Pro;
     font-weight:bold;
     color:#fff;
     font-size: 32px;
