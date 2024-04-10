@@ -1,12 +1,13 @@
 import styles from "@/styles/colors.module.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import BootstrapClient from '@/components/BootstrapClient';
 
 export default function Colors() {
     return (
       <>
       <Header/>
-        <main className={styles.colors}>
+        <main className={`${styles.colors} container`}>
         <div className={styles.colorPalette}>
           <h1 className={styles.clrTitle}>Color palette </h1>
           <p className={styles.clrTxt}>The colors for FitQuest were carefully chosen with the app and its users in mind. We wanted to choose meaningful colors that were bright and energetic to encourage our users to workout using our app.</p>
@@ -38,7 +39,7 @@ export default function Colors() {
           <div className={styles.colorPalette}>
             <h3 className={styles.clrSubOne}>Examples</h3>
             <p className={styles.exDescription}>The following images are examples of where our main colors are used appropriately in the app.</p>
-            <div>
+            <div className={styles.examplesImage}>
                   <img src="/newClrExOne.png" className={styles.colorEx}/>
                   <img src="/newClrExTwo.png" className={styles.colorEx}/>
                   <img src="/newClrExThree.png" className={styles.colorEx}/>
