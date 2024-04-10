@@ -13,7 +13,6 @@ export default function Graphics() {
         <img src="/fQBadge.png" className={styles.badgesImg} />
         <div className={styles.line}></div>
         <p className={styles.navP}>Icons are employed to offer users visual cues, enhancing navigation and the overall user experience. 5 primary icons are<br /> adopted to facilitate navigation at the bottom of the mobile screen.</p>
-        <div className={styles.navIconContainer}>
         <div className={styles.pContainer}>
           <img src="/homeIcon.png" className={styles.homeIcon} />
           <p className={styles.homeP}>The Home button navigates users to the home screen, where they can access all main features of the app, including Daily Challenges, Workout Videos, Fitness Statistics, and Nutrition Tips. This button is expected to be the most frequently used by users, so it is located in the middle of the navigation bar and stands out slightly from the other icons.</p>
@@ -33,7 +32,7 @@ export default function Graphics() {
         <div className={styles.pContainer}>
         <img src="/settingsIcon.png" className={styles.homeIcon} />
         <p className={styles.homeP}>The Settings button directs users to the settings page of the app, where they can adjust their preferences and customize their accessibility settings. The range of settings offers users a more accessible and inclusive user experience.</p>
-        </div></div>
+        </div>
         <div className={styles.lineTwo}></div>
         <h3 className={styles.avatars}>Avatars</h3>
         <p className={styles.avatarsP}>Our app offers 16 variations of avatars for users to choose from when signing up for an account. These avatars vary in age,<br /> ethnicity, gender, beliefs, and whether or not they wear glasses. While our primary audience is the younger generation, we<br /> strive to be inclusive of all backgrounds. However, it is impossible to satisfy all user characteristics entirely. Therefore, we also<br /> provide users with the option to upload their own chosen image to represent themselves on their account, ensuring everyone<br /> feels accurately represented.</p>

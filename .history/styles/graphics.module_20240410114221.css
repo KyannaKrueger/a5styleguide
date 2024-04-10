@@ -5,13 +5,8 @@
   margin: 0 auto 15px;
 }
 
-.pContainer:last-child {
-  margin-bottom: 80px;
-}
-
 .navIconContainer {
   margin: 0 auto;
-  border-bottom: 2px solid #fff;
 }
 
 .graphics {
