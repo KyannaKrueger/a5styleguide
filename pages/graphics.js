@@ -43,7 +43,7 @@ export default function Graphics() {
             <img src="/beginner_group.png" className={styles.img}/>
             <img src="/home fitness image.jpeg" className={styles.img}/>
             <img src="/Yoga-for-the-weight-loss.jpg" className={styles.img}/>
-            <img src="/YogaLady.jpeg" className={styles.img}/>
+            <img src="/yogaLady.jpeg" className={styles.img}/>
             <img src="/yogaGirls.jpeg" className={styles.img}/>
             <img src="/intermediate cardio_with glasses.jpeg" className={styles.img}/>
         </div>
