@@ -13,8 +13,31 @@ export default function ref() {
         <h3 className={styles.refHeadings}>Color from&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://m2.material.io/design/color/dark-theme.html#behavior" className={styles.refLink}>Google Material Design</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.ux-republic.com/en/which-border-radius-to-adopt-for-your-cta-copy/" className={styles.refLink}>Verywell mind</a></h3>
         <h3 className={styles.refHeadings}>Buttons & Cards Design from&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://medium.com/@IrfanUlahBaig/comparing-the-aesthetics-of-rounded-and-rectangular-buttons-6294cae40061#:~:text=Focus%20on%20Inclusion%3A%20Rounded%20buttons,for%20users%20with%20motor%20impairments" className={styles.refLink}>Medium</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.ux-republic.com/en/which-border-radius-to-adopt-for-your-cta-copy/" className={styles.refLink}>UX Republic</a></h3>
         <h3 className={styles.refHeadings}>Logo Font from&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://medium.com/@imigeddes/nunito-type-spec-a-ui-casestudy-4b1d09f5656a" className={styles.refLink}>Medium</a></h3>
-        <h3 className={styles.refHeadings}>Typography from&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://developer.apple.com/fonts/" className={styles.refLink}>Apple</a></h3>
+        <h3 className={styles.refHeadings}>Typography from <a href="https://developer.apple.com/fonts/" className={styles.refLink}>Apple</a></h3>
         </main>
+
+
+
+        And also the references for other parts
+
+references: 
+
+Color:
+https://www.verywellmind.com/the-color-psychology-of-orange-2795818#:~:text=Orange%20Is%20Energetic,uniforms%2C%20mascots%2C%20and%20branding.
+
+https://m2.material.io/design/color/dark-theme.html#behavior
+
+Buttons & Cards Design:
+https://medium.com/@IrfanUlahBaig/comparing-the-aesthetics-of-rounded-and-rectangular-buttons-6294cae40061#:~:text=Focus%20on%20Inclusion%3A%20Rounded%20buttons,for%20users%20with%20motor%20impairments.
+
+https://www.ux-republic.com/en/which-border-radius-to-adopt-for-your-cta-copy/
+
+Logo Font: 
+https://medium.com/@imigeddes/nunito-type-spec-a-ui-casestudy-4b1d09f5656a
+
+Typography:
+https://developer.apple.com/fonts/ 
+
       <Footer/>
       </>
     );
