@@ -47,7 +47,7 @@ export default function Logo() {
                     <img src="/fQIconSpacings.png" className={styles.iconSpacing}/>
                         <h4>Logo icon with clearspace</h4>
                     </div>
-                    <div className={styles.spaceContainer}>
+                    <div className={styles.spaceContainer1}>
                         <img src="fQLogoSIze.png" className={styles.size}/>
                         <h4>Minimum logo size with wordmark</h4>
                         <ul className={styles.list}>
