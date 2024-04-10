@@ -8,10 +8,7 @@
   font-style: normal;
 }
 /*-------Main Container--------*/
-.logoPage {
-  box-sizing: border-box;
-  margin: 0;
-}
+
 .logoPage {
   padding: 6rem;
   min-height: 90vh;
