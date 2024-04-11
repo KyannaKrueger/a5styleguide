@@ -43,7 +43,7 @@
 
 .badgesP {
   color: #fff;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
 
@@ -74,7 +74,7 @@
 
 .navP {
   color: #fff;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
 
@@ -85,7 +85,7 @@
 
 .homeP {
   color: #fff;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   width: 100vh;
   margin: 0;
   font-size: 18px;
@@ -97,7 +97,7 @@
 
 .workoutP {
   color: #fff;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
 
@@ -107,7 +107,7 @@
 
 .rewardsP {
   color: #fff;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
 
@@ -118,7 +118,7 @@
 
 .nutritionP {
   color: #fff;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
 
@@ -128,7 +128,7 @@
 
 .settingsP {
   color: #fff;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
 
@@ -141,13 +141,13 @@
 
 .avatars {
   color: #FF5C00;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 40px;
 }
 
 .avatarsP {
   color: #fff;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
 
@@ -182,7 +182,7 @@
 
 .buttons {
   color: #FF5C00;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 40px;
 }
 
@@ -194,7 +194,7 @@
 
 .buttonPOne {
   color: #fff;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
 
@@ -211,7 +211,7 @@
 
 .buttonPTwo {
   color: #fff;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
 
@@ -228,7 +228,7 @@
 
 .iconsExOne {
   color: #fff;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
 
@@ -245,7 +245,7 @@
 
 .appOffersP {
   color: #fff;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
 
@@ -264,7 +264,7 @@
 
 .imgP {
   color: #fff;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
 
@@ -281,6 +281,6 @@
 
 .lastP {
   color: #fff;
-  font-family: SF Pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
