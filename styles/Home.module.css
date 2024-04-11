@@ -84,7 +84,7 @@
   color: #fff;
   margin-bottom: 20px;
   display: block;
-  font-family: SF pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
 }
 
 .promptBtn {
@@ -104,6 +104,6 @@
 
 .promptBtnLink {
   color: #fff;
-  font-family: SF pro;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   text-decoration: none;
 }
