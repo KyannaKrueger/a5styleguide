@@ -2,7 +2,7 @@
     text-align: left;
     min-height: 90vh;
     background-color: #121212;
-    font-family: SF pro;
+    font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
     position: relative;
     margin: 0 auto;
     padding:5rem;
@@ -21,7 +21,7 @@
 
   .clrTxt {
     color:#fff;
-    font-family: SF pro;
+    font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
     font-size: 24px;
   }
 
