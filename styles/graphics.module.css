@@ -1,3 +1,18 @@
+.graphics {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: justify;
+  padding: 6rem;
+  min-height: 90vh;
+  background-color: #121212;
+  padding: 0px;
+}
+
+.firstContainer {
+  padding: 2em;
+}
+
 .pContainer {
   display: flex;
   flex-direction: row;
@@ -14,34 +29,33 @@
   border-bottom: 2px solid #FF5C00;
 }
 
-.graphics {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  text-align: left;
-  padding: 6rem;
-  min-height: 90vh;
-  background-color: #121212;
-  padding: 0px;
-}
-
-.graphicsIntroContainer {
-  display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
+.graphicsExplainedContainer {
+  margin: 2rem auto;
 }
 
 .graphicsH {
   color: #FF5C00;
   font-family: SF Pro;
   font-size: 40px;
+  margin: 0 auto;
+  padding-bottom:1rem;
 }
 
 .badgesP {
   color: #fff;
   font-family: SF Pro;
   font-size: 24px;
+}
+
+.badge {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 5rem 10rem;
+  margin: 0;
+  padding: 2rem 0;
 }
 
 .badgesImg {
@@ -62,16 +76,6 @@
   color: #fff;
   font-family: SF Pro;
   font-size: 24px;
-  margin-left: 180px;
-}
-
-.line {
-  width: 1200px;
-  height: 500px;
-  border-bottom: 2px solid #FF5C00;
-  margin-left: 180px;
-  margin-top: -500px;
-  margin-bottom: -0px;
 }
 
 .homeIcon {
@@ -115,32 +119,17 @@
 .nutritionP {
   color: #fff;
   font-family: SF Pro;
-  margin-left: 350px;
-  margin-top: -75px;
   font-size: 18px;
 }
 
 .settingsIcon {
   width: 100px;
-  margin-top: 50px;
-  margin-left: 180px;
 }
 
 .settingsP {
   color: #fff;
   font-family: SF Pro;
-  margin-left: 350px;
-  margin-top: -75px;
   font-size: 18px;
-}
-
-.lineTwo {
-  width: 1200px;
-  height: 500px;
-  border-bottom: 2px solid #FF5C00;
-  margin-left: 180px;
-  margin-top: -450px;
-  margin-bottom: 20px;
 }
 
 .avatarContainer {
@@ -164,7 +153,6 @@
 
 .allCharacters {
   width: 1200px;
-  margin-bottom: 40px;
   transform: scale(1);
   transition: transform 0.5s ease-in-out;
 }
@@ -176,24 +164,26 @@
 
 .buttonsContainer {
   display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
+  flex-direction: column;
+  margin: 0 auto;
 }
+
 
 .cardContainer {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 5rem 10rem;
+  margin: 0;
+  padding: 2rem 0;
 }
 
 .buttons {
   color: #FF5C00;
   font-family: SF Pro;
   font-size: 40px;
-  margin-left: 180px;
-  margin-top: 40px;
 }
 
 .buttonsFirstP {
@@ -209,7 +199,14 @@
 }
 
 .buttonImg {
-  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 5rem 10rem;
+  margin: 0;
+  padding: 2rem 0;
 }
 
 .buttonPTwo {
@@ -225,7 +222,7 @@
 }
 
 .card:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
   transition: transform 0.5s ease-in-out;
 }
 
@@ -236,7 +233,7 @@
 }
 
 .quizEx {
-  width: 600px;
+  width: 300px;
   transform: scale(1);
   transition: transform 0.5s ease-in-out;
 }
@@ -275,6 +272,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 2rem;
 }
 
 .img {
