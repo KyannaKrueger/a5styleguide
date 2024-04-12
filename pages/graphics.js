@@ -71,7 +71,7 @@ export default function Graphics() {
           <p className={styles.appOffersP}>The app offer a wide range of workout videos suitable for beginners, users with regular exercise routines, and advanced levels, with options for both equipment-based and equipment-free workouts. This also contributes to a high level of inclusivity and accessibility.</p>
           </div>
 
-          <div className={styles.graphicsExplainedContainer}>
+          <div className={styles.imagesContainer}>
           <h3 className={styles.images}>Images and Inspirations</h3>
           <p className={styles.imgP}> For the videos and images utilized throughout the app, we uphold the principle of inclusivity, aiming to encourage users with diverse exercise backgrounds to join and follow the workout videos. Therefore, we offer a variety of videos featuring male or female coaches, coaches in groups, and coaches of different ethnicities. </p>
           <div className={styles.gallery}>

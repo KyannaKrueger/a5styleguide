@@ -243,11 +243,10 @@
   font-size: 24px;
 }
 
-.imagesContainer {
-  display: flex;
-    flex-direction: column;
-    align-items: center;
+.imagesContainer { 
     margin: 0 auto;
+    padding-top:3rem;
+
 }
 
 .images {
@@ -278,3 +277,4 @@
   font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 24px;
 }
+
