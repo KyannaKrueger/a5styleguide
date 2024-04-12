@@ -46,6 +46,8 @@
   color: #FF5C00;
   font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 40px;
+  padding-bottom:1rem;
+  margin:0 auto;
 }
 
 .variations {

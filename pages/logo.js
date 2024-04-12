@@ -8,6 +8,7 @@ export default function Logo() {
     <>
     <Header/>
     <main className={`${styles.logoPage} container`}>
+        <h1 className={styles.topicH}>Logo</h1>
         <section className={styles.innerContainer}>
             <p className={styles.logoDescription}>
                 The FitQuest logo features a badge shape with a striking fire icon at its center, symbolizing our app's objective of motivating users and igniting their enthusiasm to workout. By incorporating the concept of badges to recognize exercise progress and provide rewards, the logo effectively communicates this aspect of our app. 
