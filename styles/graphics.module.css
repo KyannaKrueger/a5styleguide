@@ -10,14 +10,17 @@
 }
 
 .firstContainer {
-  padding: 2em;
+  padding: 2em 0;
 }
 
 .pContainer {
   display: flex;
   flex-direction: row;
-  gap: 25px;
-  margin: 0 auto 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  margin: 0 auto 35px;
+
 }
 
 .pContainer:last-child {
@@ -51,15 +54,13 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
   width: 100%;
-  gap: 5rem 10rem;
-  margin: 0;
-  padding: 2rem 0;
+  padding-bottom: 4rem;
 }
 
 .badgesImg {
-  width: 800px;
+  width: 600px;
+  height: auto;
   background-color: transparent;
   align-items: center;
   justify-content:center ;
@@ -76,6 +77,7 @@
   color: #fff;
   font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
   font-size: 24px;
+  padding-bottom:2rem;
 }
 
 .homeIcon {
@@ -168,7 +170,6 @@
   margin: 0 auto;
 }
 
-
 .cardContainer {
   display: flex;
   flex-direction: row;
@@ -202,10 +203,10 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
-  width: 100%;
+  align-items: center;
+  width: 60%;
   gap: 5rem 10rem;
-  margin: 0;
+  margin: 0 auto;
   padding: 2rem 0;
 }
 

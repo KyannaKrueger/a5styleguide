@@ -64,7 +64,7 @@ export default function Graphics() {
             <p className={styles.iconsExOne}>For the icons designed throughout the app, our aim is to illustrate a body in a simple manner, maintaining neutrality and inclusivity. We typically ask users two questions to determine their workout preferences and then filter the suggested videos accordingly, enhancing accessibility.</p>
           </div>
           <div className={styles.cardContainer}>
-          <img src="/exercise info 2.png" className={styles.card} />
+            <img src="/exercise info 2.png" className={styles.card} />
             <img src="/exercise info 1.png" className={styles.card} />
           </div>
           <div className={styles.badgesP}>
