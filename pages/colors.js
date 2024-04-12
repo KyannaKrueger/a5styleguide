@@ -12,7 +12,6 @@ export default function Colors() {
           <h1 className={styles.clrTitle}>Color palette </h1>
           <p className={styles.clrTxt}>The colors for FitQuest were carefully chosen with the app and its users in mind. We wanted to choose meaningful colors that were bright and energetic to encourage our users to workout using our app.</p>
         </div>
-
          <div className={styles.swatchContainer}>
               <div className={styles.clrSwatch}>
                   <img src="/orangeSwatch.png" className={styles.swatch}/>
@@ -35,7 +34,6 @@ export default function Colors() {
                   <p>White is our background color for light mode,and our text color for dark mode.</p>
               </div>
          </div>
-
           <div className={styles.colorPalette}>
             <h3 className={styles.clrSubOne}>Examples</h3>
             <p className={styles.exDescription}>The following images are examples of where our main colors are used appropriately in the app.</p>
@@ -45,7 +43,6 @@ export default function Colors() {
                   <img src="/newClrExThree.png" className={styles.colorEx}/>
             </div>
           </div>
-     
             <div className={styles.colorPalette}>
               <h3 className={styles.clrSubTwo}>Accessibility</h3>
               <p className={styles.acDescription}>The following images are screenshots displaying color contrast results.</p>
