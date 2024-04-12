@@ -35,7 +35,7 @@ export default function Colors() {
                   <p>White is our background color for light mode,and our text color for dark mode.</p>
               </div>
          </div>
-          <div className={styles.colorPalette}>
+          <div className={styles.colorExamples}>
             <h3 className={styles.clrSubOne}>Examples</h3>
             <p className={styles.exDescription}>The following images are examples of where our main colors are used appropriately in the app.</p>
             <div className={styles.examplesImage}>
@@ -44,7 +44,7 @@ export default function Colors() {
                   <img src="/newClrExThree.png" className={styles.colorEx}/>
             </div>
           </div>
-            <div className={styles.colorPalette}>
+            <div className={styles.colorExamples}>
               <h3 className={styles.clrSubTwo}>Accessibility</h3>
               <p className={styles.acDescription}>The following images are screenshots displaying color contrast results.</p>
               <div className={styles.accessibleContainer}>

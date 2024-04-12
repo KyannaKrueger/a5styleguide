@@ -10,16 +10,15 @@ export default function Graphics() {
       <Header />
       <main className={`${styles.graphics} container`}>
         <div className={styles.firstContainer}>
-        <div className={styles.graphicsExplainedContainer}>
           <h1 className={styles.graphicsH}>Graphics</h1>
           <p className={styles.badgesP}>Badges are used to track progress and acknowledge users' milestones in workout achievements. For instance, upon watching 20 Upper Body videos, users can earn a bronze badge. This system motivate users to persist in their workouts, striving to earn more badges displayed within the app and share their achievements with friends.</p>
-        </div>
         </div>
         <div className={styles.badge}>
           <img src="/fQBadge.png" className={styles.badgesImg} />
         </div>
         <div className={styles.badgesP}>
-        <p className={styles.navP}>Icons are employed to offer users visual cues, enhancing navigation and the overall user experience. 5 primary icons are adopted to facilitate navigation at the bottom of the mobile screen.</p>
+        <p className={styles.navP}>Icons are employed to offer users visual cues, enhancing navigation and the overall user experience.
+        5 primary icons are adopted to facilitate navigation at the bottom of the mobile screen.</p>
         </div>
         {/* <div className={`${styles.navIconContainer} .container`}> */}
           <div className={styles.pContainer}>
@@ -42,6 +41,7 @@ export default function Graphics() {
             <img src="/settingsIcon.png" className={styles.homeIcon} />
             <p className={styles.homeP}>The Settings button directs users to the settings page of the app, where they can adjust their preferences and customize their accessibility settings. The range of settings offers users a more accessible and inclusive user experience.</p>
         </div>
+
         <div className={styles.graphicsExplainedContainer}>
           <h3 className={styles.avatars}>Avatars</h3>
           <p className={styles.avatarsP}>Our app offers 16 variations of avatars for users to choose from when signing up for an account. These avatars vary in age, ethnicity, gender, beliefs, and whether or not they wear glasses. While our primary audience is the younger generation, we strive to be inclusive of all backgrounds. However, it is impossible to satisfy all user characteristics entirely. Therefore, we also provide users with the option to upload their own chosen image to represent themselves on their account, ensuring everyone feels accurately represented.</p>
@@ -71,7 +71,7 @@ export default function Graphics() {
           <p className={styles.appOffersP}>The app offer a wide range of workout videos suitable for beginners, users with regular exercise routines, and advanced levels, with options for both equipment-based and equipment-free workouts. This also contributes to a high level of inclusivity and accessibility.</p>
           </div>
 
-          <div className={styles.imagesContainer}>
+          <div className={styles.graphicsExplainedContainer}>
           <h3 className={styles.images}>Images and Inspirations</h3>
           <p className={styles.imgP}> For the videos and images utilized throughout the app, we uphold the principle of inclusivity, aiming to encourage users with diverse exercise backgrounds to join and follow the workout videos. Therefore, we offer a variety of videos featuring male or female coaches, coaches in groups, and coaches of different ethnicities. </p>
           <div className={styles.gallery}>

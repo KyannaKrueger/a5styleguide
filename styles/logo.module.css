@@ -84,6 +84,7 @@
 color: #FF5C00;
 font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
 font-size: 40px;
+padding-top:2rem;
 }
 
 .spacingInfo {
@@ -139,6 +140,7 @@ font-size: 40px;
 .logoExH {
 color: #ff5c00;
 font-size: 40px;
+padding-top:2rem;
 }
 
 .charactersLogo{
@@ -179,6 +181,7 @@ padding-top:2rem;
 color: #FF5C00;
 font-size: 40px;
 font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
+padding-top:2rem;
 }
 
 .avoidP {

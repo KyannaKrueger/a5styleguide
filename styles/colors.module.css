@@ -12,6 +12,10 @@
     margin: 0 auto;
   }
 
+  .colorExamples{
+    padding-top:60px;
+  }
+
   .clrTitle{
     color: #ff5c00;
     font-size: 40px;
@@ -26,13 +30,14 @@
   }
 
   .swatch {
-    width:300px;
+    width:250px;
+    height: 250px;
     transform: scale(1);
     transition: transform 0.5s ease-in-out; 
   }
 
   .swatch:hover {
-    width:300px;
+    width:250px;
     transform: scale(1.1);
     transition: transform 0.5s ease-in-out; 
   }
