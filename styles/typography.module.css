@@ -8,6 +8,10 @@
   padding:5rem;
   }
 
+  .fontSize{
+    padding:2rem 0 0 0;
+  }
+
   .mainExContainer{
     display:flex;
     flex-direction: column;
@@ -43,6 +47,27 @@
     font-size: 150px;
     font-weight: bold;
     text-align: center;
+    padding:2rem 0;
+  }
+
+ .ExContainer{
+  display:flex; 
+  flex-direction: column;
+  padding: 5rem 0;
+ }
+  .mainExContainer{
+    display:flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+    padding-top:2rem;
+  }
+
+  .characterLight, .charactersLight{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight:300;
   }
 
   .characterH {
@@ -50,6 +75,25 @@
     text-align: left;
     font-size: 40px;
   }
+
+  .characterRegular, .charactersRegular{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight:400;
+  }
+
+  .characterSemi, .charactersSemi{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight:600;
+  }
+  
+  .charactersBold, .characterBold{
+    color: #ffffff;
+    font-size: 24px;
+    font-weight:800;
+  }
+
 
 .characters {
     color: #ffffff;
@@ -60,6 +104,7 @@
     color: #ff5c00;
     text-align: left;
     font-size: 40px;
+    padding-right:5rem;
   }
 
 .mainExContainer {
@@ -79,32 +124,49 @@
 
 .hOne {
     font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
-    font-weight:bold;
+    font-weight:800;
     color:#fff;
     font-size: 38px;
+    margin:0;
 }
 
 .hTwo {
     font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
-    font-weight:bold;
+    font-weight:800;
     color:#fff;
     font-size: 32px;
+    margin:0;
 }
 
-.subContainer {
+.subContainer,.subConOne, .subCon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:2rem;
+}
+
+
+.bodyContainer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.subConOne {
+.subConOne{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/* .subConOne {
  display: flex;
  flex-direction: row;
  display: flex;
  flex-direction: column;
  align-items: flex-start;
 
-}
+} */
 
 .sec {
   color: #ff5c00;
@@ -114,15 +176,25 @@
 .secH {
   color: #fff;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 800;
+  text-align: center;
+  margin:0;
 }
 
+.secH2 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  margin:0;
+}
+/* 
 .subCon {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 
-}
+} */
 
 .secSub {
   color: #ff5c00;
@@ -133,19 +205,27 @@
   color: #fff;
   font-size: 18px;
   font-weight: bold;
+  margin:0;
 }
 
 .sub2 {
   color: #fff;
   font-size: 16px;
-  font-weight:500;
+  font-weight:600;
+  margin:0;
 }
 
-.bodyContainer {
+.sub3 {
+  color: #fff;
+  font-size: 16px;
+  font-weight:800;
+  margin:0;
+}
+/* .bodyContainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} */
 
 .bodyCopy {
   color: #ff5c00;
@@ -155,9 +235,28 @@
 .bodyOne {
   color: #fff;
   font-size: 16px;
+  font-weight:400;
+  margin:0;
 }
 
 .bodyTwo {
   color: #fff;
   font-size: 14px;
+  font-weight:400;
+  margin:0;
+}
+
+.bodyThree {
+  color: #fff;
+  font-size: 12px;
+  font-weight:300;
+  margin:0;
+}
+
+
+.bodyFont{
+  display: flex;
+  flex-direction: row;
+  gap: 19rem;
+  align-items: center;
 }
