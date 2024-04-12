@@ -5,15 +5,20 @@
     text-align: left;
     min-height: 90vh;
     background-color: #121212;
-    padding: 0px;
+    padding:5rem;
     font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
     position: relative;
   }
 
+  .typoExplained {
+    margin: 0 auto;
+  }
+
   .typoTitle{
     color: #ff5c00;
-    margin-top: 50px;
     font-size: 40px;
+    margin: 0 auto;
+    padding-bottom:1rem;
   }
 
   .orange {
@@ -24,35 +29,33 @@
     color:#ffffff;
     font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
     font-size: 24px;
-    padding: 50px 80px 80px;
   }
 
   .bigSF {
     color: #ff5c00;
     font-size: 104px;
     margin-bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 4rem;
   }
 
   .characterH {
     color: #ff5c00;
     text-align: left;
-    margin-left: -1000px;
-    margin-top: 50px;
     font-size: 40px;
   }
 
 .characters {
     color: #ffffff;
-    margin-left: -1000px;
-    margin-top: -10px;
     font-size: 24px;
 }
 
 .headingH {
     color: #ff5c00;
     text-align: left;
-    margin-left: -1050px;
-    margin-top: 20px;
     font-size: 40px;
   }
 
@@ -60,7 +63,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-left: 700px;
 }
 
 .mainExContainer {
@@ -68,35 +70,9 @@
     flex-direction: column;
 }
 
-.logoExContainer {
-    display: flex;
-    flex-direction: column;
-    margin-top: -50px;
-}
-
-.logoExH {
-    color: #ff5c00;
-    text-align: left;
-    margin-left: 0px;
-    margin-top: 0px;
-    font-family: Nunito;
-    font-weight: 800;
-    font-size: 40px;
-  }
-
-  .charactersLogo{
-    color: #ffffff;
-    margin-left: 0px;
-    margin-top: 0px;
-    font-family: Nunito;
-    font-weight: 800;
-    font-size: 32px;
-}
 
 .headingDescript {
     color: #fff;
-    margin-left: -650px;
-    margin-top: -10px;
     font-size: 32px;
 }
 
@@ -105,8 +81,6 @@
     font-weight:bold;
     color:#fff;
     font-size: 38px;
-    margin-left: -1020px;
-    margin-top: -10px;
 }
 
 .hTwo {
@@ -114,88 +88,57 @@
     font-weight:bold;
     color:#fff;
     font-size: 32px;
-    margin-left: -1070px;
-    margin-top: -10px;
 }
 
-.subContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-left:400px;
-    margin-top: -260px;
-    width: 1000px;
-    margin-bottom: 100px;
-}
-
-.subConOne {
- display: flex;
- flex-direction: row;
- display: flex;
- flex-direction: column;
- align-items: flex-start;
- width: 1000px;
- margin-left: 0px;
-}
 
 .sec {
   color: #ff5c00;
   font-size: 40px;
-  margin-left: 00px;
 }
 
 .secH {
   color: #fff;
   font-size: 24px;
   font-weight: bold;
-  margin-left: -5px;
-  margin-top: -10px;
-}
-
-.subCon {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-left: 700px;
-  margin-right: 50px;
 }
 
 .secSub {
   color: #ff5c00;
   font-size: 40px;
-  margin-left: -600px;
 }
 
 .sub {
   color: #fff;
   font-size: 24px;
   font-weight: bold;
-  margin-left: -600px;
-  margin-top: -10px;
-}
-
-.bodyContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
 .bodyCopy {
   color: #ff5c00;
   font-size: 40px;
-  margin-left: -200px;
 }
 
 .bodyOne {
   color: #fff;
   font-size: 16px;
-  margin-left: -300px;
-  margin-top: -10px;
 }
 
 .bodyTwo {
   color: #fff;
   font-size: 14px;
-  margin-left: -310px;
-  margin-top: -5px;
+}
+
+.mainExContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.exContainer{
+  display: flex;
+  flex-direction: column;
+  padding: 3em;
+  margin: 0 auto;
 }
