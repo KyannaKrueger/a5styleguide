@@ -2,6 +2,7 @@ import styles from "@/styles/colors.module.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BootstrapClient from '@/components/BootstrapClient';
+import 'bootstrap/dist/css/bootstrap.css';
 
 export default function Colors() {
     return (
