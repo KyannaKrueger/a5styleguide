@@ -1,13 +1,21 @@
 .typography {
-    display: flex;
+  text-align: justify;
+  min-height: 90vh;
+  background-color: #121212;
+  font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
+  position: relative;
+  margin: 0 auto;
+  padding:5rem;
+  }
+
+  .mainExContainer{
+    display:flex;
     flex-direction: column;
     align-items: center;
-    text-align: left;
-    min-height: 90vh;
-    background-color: #121212;
-    padding:5rem;
-    font-family: 'SF Pro Text', -apple-system, Arial, Helvetica, sans-serif;
-    position: relative;
+    text-align: center;
+  }
+  .typoContainer{
+    margin: 0 auto;
   }
 
   .typoExplained {
@@ -17,7 +25,6 @@
   .typoTitle{
     color: #ff5c00;
     font-size: 40px;
-    margin: 0 auto;
     padding-bottom:1rem;
   }
 
@@ -33,13 +40,9 @@
 
   .bigSF {
     color: #ff5c00;
-    font-size: 104px;
-    margin-bottom: 0px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    padding-bottom: 4rem;
+    font-size: 150px;
+    font-weight: bold;
+    text-align: center;
   }
 
   .characterH {
@@ -59,13 +62,11 @@
     font-size: 40px;
   }
 
-.exampleContainer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.mainExContainer {
 }
 
-.mainExContainer {
+
+.logoExContainer {
     display: flex;
     flex-direction: column;
 }
@@ -90,6 +91,20 @@
     font-size: 32px;
 }
 
+.subContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.subConOne {
+ display: flex;
+ flex-direction: row;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+
+}
 
 .sec {
   color: #ff5c00;
@@ -102,15 +117,34 @@
   font-weight: bold;
 }
 
+.subCon {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
 .secSub {
   color: #ff5c00;
   font-size: 40px;
 }
 
-.sub {
+.sub1 {
   color: #fff;
-  font-size: 24px;
+  font-size: 18px;
   font-weight: bold;
+}
+
+.sub2 {
+  color: #fff;
+  font-size: 16px;
+  font-weight:500;
+}
+
+.bodyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .bodyCopy {
@@ -126,19 +160,4 @@
 .bodyTwo {
   color: #fff;
   font-size: 14px;
-}
-
-.mainExContainer {
-  display: flex;
-  flex-direction: row;
-  margin: 0 auto;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.exContainer{
-  display: flex;
-  flex-direction: column;
-  padding: 3em;
-  margin: 0 auto;
 }
