@@ -1,9 +1,0 @@
-.main {
-  display: flex;
-  flex-direction: column;
-  padding: 6rem;
-  min-height: 120vh;
-  background-image: radial-gradient(circle, #0a0a5c,#030327, #070721) ;
-  margin:-10px;
-  padding: 0px;
-}
