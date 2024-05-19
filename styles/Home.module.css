@@ -58,6 +58,13 @@
   font-weight: 800;
 }
 
+.creator{
+  font-size: 24px;
+  color: #fff;
+  list-style-type: none;
+  padding: 40px 0;
+}
+
 .contentContainer {
   display: flex;
   align-items: center;

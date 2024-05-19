@@ -32,6 +32,11 @@ export default function Home() {
               <Link href="/colors" passHref>
                 <button className={styles.promptBtn}>Lets go!</button>
               </Link>
+              <ul className={styles.creator}>
+                <li>D3-Set G</li>
+                <li>Gloria Chan, Vanessa Huang</li>
+                <li>Kyanna Krueger, Zeno Wong</li>
+              </ul>
             </div>
           </div>
           <div className={styles.VideoContainer}>
