@@ -52,14 +52,14 @@
 }
 
 .fQ {
-  font-size: 200px;
+  font-size: 180px;
   color: #fff;
   font-family: Nunito;
   font-weight: 800;
 }
 
 .creator{
-  font-size: 24px;
+  font-size: 18px;
   color: #fff;
   list-style-type: none;
   padding: 40px 0;
@@ -87,7 +87,7 @@
 }
 
 .sG {
-  font-size: 60px;
+  font-size: 50px;
   color: #fff;
   margin-bottom: 20px;
   display: block;
@@ -97,10 +97,10 @@
 .promptBtn {
   background-color: #FF5C00;
   border: none;
-  width: 280px;
+  width: 250px;
   height: 50px;
   border-radius: 30px;
-  font-size: 24px;
+  font-size: 22px;
   color: #fff;
 }
 
